@@ -9,7 +9,7 @@ const Intro = ({ start, history }) => {
 
   return(
     <Message>
-      <Message.Header>Tervetuloa Kekkosvisaan!</Message.Header>
+      <Message.Header>Tervetuloa Tietovisaan, aiheena Kekkonen!</Message.Header>
       <p> Aloita peli painamalla Aloita-nappia.</p>
       <Button onClick={handleClick}>Aloita</Button>
     </Message>
