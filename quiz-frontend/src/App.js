@@ -32,7 +32,7 @@ class App extends Component {
     return (
       <HashRouter>
       <Container>
-        <Header as='h1'>Kekkosvisa</Header>
+        <Header as='h1'>Tietovisa Kekkosesta</Header>
         <Route exact path="/" render={({history}) => <Intro start={this.start} history={history}/>}></Route>
         {this.checkGame()}
       </Container>
